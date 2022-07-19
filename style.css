@@ -1,0 +1,98 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500,400&display=swap');
+
+/* common styles or utilities */
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFFFFF;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 130px;
+}
+
+
+h1 {
+    font-size: 70px;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+p {
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* Hero area  */
+.hero-area {
+    background-color: #161616;
+    color: #FFFFFF;
+    width: 1000px;
+    height: 546px;
+    border-radius: 30px;
+    align-items: center;
+    margin-top: 35px;
+    padding: 20px 110px;
+}
+
+.flexible {
+    display: flex;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 481px;
+    height: 555px;
+    margin-top: 33px;
+
+}
+
+.watch-live-btn {
+    background-color: #DD0000;
+    color: #FFFFFF;
+    padding: 16px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Middle section  */
+.container {
+    display: flex;
+}
+
+.side-menus {
+    background-color: #161616;
+    border-radius: 10px;
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 110px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.side-menus .menu a {
+    text-decoration: none;
+    width: 252px;
+    height: 64px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #161616;
+}
