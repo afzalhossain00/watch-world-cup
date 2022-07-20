@@ -6,6 +6,7 @@ body {
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    margin: 0;
 }
 
 main {
@@ -77,7 +78,6 @@ p {
 /* Middle section styles */
 .middle-section {
     padding: 60px 50px;
-    display: flex;
 
 }
 
@@ -88,6 +88,7 @@ p {
     width: 1165px;
 }
 
+/* side menu style  */
 .side-menus {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -99,8 +100,7 @@ p {
     height: 312px;
 }
 
-.side-menus .menu {
-    text-decoration: none;
+.side-menus .menu-button {
     background-color: #FFFFFF;
     color: #000;
     width: 180px;
@@ -108,17 +108,21 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 20px;
     border-radius: 10px;
     padding: 0px 25px;
 
 }
 
-.side-menus .menu a {
+a.menu-button {
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
     font-size: 20px;
-    background-color: #FFFFFF;
+
     color: #161616;
 }
+
+/* blogs section style  */
 
 .blogs {
     display: grid;
@@ -160,4 +164,93 @@ p {
 
 .blog-reaction span {
     color: #343333;
+}
+
+/* footer area style  */
+footer {
+    padding: 120px 120px;
+    height: 300px;
+    background-color: #161616;
+
+
+}
+
+footer h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 50px;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+
+}
+
+footer ul a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #B9B9B9;
+    line-height: 24px;
+    margin-right: 40px;
+}
+
+
+/* style for match-schedule.html  */
+.matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+
+
+.match {
+    padding: 15px 25px;
+    margin-top: 0px;
+    width: 210px;
+    height: 242px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.team {
+    display: flex;
+    gap: 22px;
+    padding-top: 20px;
+
+}
+
+.team img {
+    width: 72px;
+    height: 50px;
+    border-radius: 2px;
+
+}
+
+.match-schedule h4 {
+    font-weight: 600;
+    font-size: 20px;
+    color: #161616;
+    padding-top: 25px;
+    text-align: center;
+    line-height: 35px;
+    margin: 0;
+}
+
+.match-schedule p {
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
