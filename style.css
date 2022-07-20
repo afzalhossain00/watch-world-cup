@@ -67,9 +67,11 @@ p {
 }
 
 .watch-live-btn {
+    font-size: 20px;
+    font-weight: 400;
     background-color: #DD0000;
     color: #FFFFFF;
-    padding: 16px 25px;
+    padding: 14px 18px;
     margin-bottom: 35px;
     border-radius: 5px;
     border: none;
@@ -131,6 +133,7 @@ a.menu-button {
 
 .blogs .blog {
     background-color: #ffffff;
+    border: 1px solid #E8E8E8;
     height: auto;
     border-radius: 10px;
     box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
@@ -261,4 +264,167 @@ ul .social-icon {
 
 .social-icon li a {
     font-size: 45px;
+}
+
+
+/* Media Queries  */
+
+/* Responsive for mobile device  */
+@media only screen and (max-width: 576px) {
+
+    /* hero area styles  */
+    .hero-area {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90%;
+        height: 95%;
+        padding: 5px;
+        margin-top: 10px;
+    }
+
+    .flexible {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .half-width {
+        width: 85%;
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .hero-area .half-width h1 {
+        margin-top: 55px;
+        Height: 66px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 45px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .hero-area .half-width img {
+
+        padding-left: 50px;
+        width: 80%;
+        margin: -7px;
+        align-items: center;
+    }
+
+    .hero-area .half-width p {
+        margin-bottom: 40px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 30px;
+        white-space: nowrap;
+        overflow: hidden;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        white-space: normal;
+    }
+
+    #ellipsis {
+        text-overflow: ellipsis;
+    }
+
+    /* Middle area styles  */
+    .middle-section .container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .side-menus {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        background-color: #FFFFFF;
+    }
+
+    .side-menus .menu-button {
+        border: 1px solid #E8E8E8 !important;
+        color: #000;
+        width: 180px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+        padding: 0px 25px;
+    }
+
+    .side-menus .menu-button a {
+        border: 1px solid;
+    }
+
+    .blogs,
+    .matchs {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 24px;
+    }
+
+    .blogs .blog {
+        background-color: #ffffff;
+        border-radius: 10px;
+        box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
+        width: 335px;
+        height: 405px;
+        border: 1px solid #E8E8E8 !important;
+    }
+
+    .matchs .match {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 50px;
+        box-shadow: 0px 5.34229px 13.3557px rgb(0 0 0 / 5%);
+        height: 215px;
+        border: 1px solid #E8E8E8 !important;
+    }
+
+    /* Footer styles  */
+    footer {
+        padding: 0px 80px;
+        height: 460px;
+        background-color: #6B34B4;
+        text-align: center;
+    }
+
+    footer h2 {
+        font-size: 25px;
+        text-align: center;
+        padding-top: 25px;
+        margin: 0;
+    }
+
+    footer hr {
+        border: 1px solid #B9B9B9;
+        margin-top: 25px;
+    }
+
+    footer ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        flex-direction: column;
+        align-content: center;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    footer ul li {
+        line-height: 0px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    footer .social-icon {
+        background-color: #6B34B4
+    }
 }
