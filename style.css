@@ -40,7 +40,7 @@ p {
 
 /* Hero area styles */
 .hero-area {
-    background-color: #161616;
+    background-color: #6B34B4;
     color: #FFFFFF;
     width: 950px;
     height: 500px;
@@ -92,7 +92,7 @@ p {
 .side-menus {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: #161616;
+    background-color: #6B34B4;
     padding: 10px;
     justify-items: center;
     align-items: center;
@@ -118,8 +118,7 @@ a.menu-button {
     font-weight: 600;
     display: block;
     font-size: 20px;
-
-    color: #161616;
+    color: #E9E9E9;
 }
 
 /* blogs section style  */
@@ -149,8 +148,8 @@ a.menu-button {
 .transfer-btn {
     text-decoration: none;
     font-size: 16px;
-    color: #161616;
-    border: 1px solid #161616;
+    color: #000;
+    border: 1px solid #6B34B4;
     padding: 3px 10px;
     border-radius: 5px;
 }
@@ -163,14 +162,14 @@ a.menu-button {
 }
 
 .blog-reaction span {
-    color: #343333;
+    color: #000;
 }
 
 /* footer area style  */
 footer {
     padding: 120px 120px;
     height: 300px;
-    background-color: #161616;
+    background-color: #6B34B4;
 
 
 }
@@ -183,7 +182,7 @@ footer h2 {
 }
 
 footer hr {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #B9B9B9;
     margin-top: 50px;
 }
 
@@ -200,7 +199,7 @@ footer ul a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
-    color: #B9B9B9;
+    color: #ffffff;
     line-height: 24px;
     margin-right: 40px;
 }
@@ -242,7 +241,7 @@ footer ul a {
 .match-schedule h4 {
     font-weight: 600;
     font-size: 20px;
-    color: #161616;
+    color: #6B34B4;
     padding-top: 25px;
     text-align: center;
     line-height: 35px;
@@ -253,4 +252,13 @@ footer ul a {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+/* Social icon style  */
+ul .social-icon {
+    background-color: aquamarine;
+}
+
+.social-icon li a {
+    font-size: 45px;
 }
